@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            color: #666;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        
+        .buttons {
+            margin: 30px 0;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        
+        .features {
+            margin-top: 40px;
+            text-align: left;
+        }
+        
+        .feature-box {
+            background-color: #f8f9fa;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 5px;
+            border-left: 4px solid #007bff;
+        }
+        
+        .feature-box h3 {
+            color: #333;
+            margin-top: 0;
+        }
+        
+        .status {
+            margin-top: 40px;
+            padding: 15px;
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            border-radius: 5px;
+            color: #155724;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Event Management System</h1>
+        <p>Welcome! Your Django application is running successfully.</p>
+        
+        <div class="buttons">
+            <a href="/api/events/" class="btn">Events API</a>
+            <a href="/api/events/categories/" class="btn">Categories</a>
+            <a href="/api/auth/profile/" class="btn">Profile</a>
+            <a href="/api/auth/login/" class="btn">Login</a>
+            <a href="/api/auth/register/" class="btn">Register</a>
+
+            <a href="/api/bookings/" class="btn">Bookings API</a>
+        </div>
+        
+        <div class="features">
+            <div class="feature-box">
+                <h3>📅 Manage Events</h3>
+                <p>Create, edit, and manage all your events in one place.</p>
+            </div>
+            
+            <div class="feature-box">
+                <h3>👥 User Accounts</h3>
+                <p>Handle user registrations, login, and account management.</p>
+            </div>
+            
+            <div class="feature-box">
+                <h3>🎫 Event Booking</h3>
+                <p>Allow users to book tickets and manage their reservations.</p>
+            </div>
+        </div>
+        
+        <div class="status">
+            <strong>✅ Server Status: Running</strong><br>
+            Server URL: http://127.0.0.1:8000/
+        </div>
+    </div>
+</body>
+</html>
