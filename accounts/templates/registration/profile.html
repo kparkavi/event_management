@@ -219,7 +219,7 @@
             <a href="/">Home</a>
             <a href="/api/events/">Events</a>
             <a href="/api/bookings/">My Bookings</a>
-            <a href="{% url 'admin:logout' %}">Logout</a>
+            <a href="/api/auth/logout/">Logout</a>
         </div>
     </nav>
 
@@ -287,7 +287,7 @@
                 <div class="action-description">
                     Securely logout from your account
                 </div>
-                <a href="{% url 'admin:logout' %}" class="action-btn logout-btn">Logout</a>
+                <a href="/api/auth/logout/" class="action-btn logout-btn">Logout</a>
             </div>
         </div>
     </div>

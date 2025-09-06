@@ -68,3 +68,5 @@ class Booking(models.Model):
             super().save(update_fields=['payment_reference'])
         else:
             super().save(*args, **kwargs)
+
+            
